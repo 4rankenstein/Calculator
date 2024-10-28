@@ -156,7 +156,6 @@ public class calculator implements ActionListener {
 
             else{intresult=(int)doubleres;
             textfield.setText(String.valueOf(intresult));
-            // num1=intresult;
             }  
         }
         if(e.getSource()==clrButton) {textfield.setText(" ");}   
